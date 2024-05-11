@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Market Sans Light", sans-serif;
+}
+
+.footer__container {
+    width: 100vw;
+    height: 500px;
+    padding: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #7676762b;
+    border-top: 1px solid #767676bf;
+}
+
+.footer {
+    max-width: 1420px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer_component {
+    height: 100%;
+}
+
+.footer_component>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+}
+
+.footer_component>ul>li {
+    font-size: 12px;
+    color: #767676;
+}
+
+.footer_component>h5 {
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.footer__copyright {
+    width: 100%;
+}
+
+.footer__copyright>p {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #767676;
+}

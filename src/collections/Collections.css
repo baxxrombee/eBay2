@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Market Sans Light", sans-serif;
+}
+
+.collections {
+    margin-top: 60px;
+    max-width: 100vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.collections__title {
+    max-width: 1420px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.collections__title p {
+    color: #191919;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: start;
+}
+
+.collections__products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    width: 100%;
+}
+
+.swiper {
+    width: 100%;
+    height: 300px;
+}
+
+.Swiper1 {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.collections__product-image {
+    display: block;
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.collections__product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.collections__product>p {
+    color: #191919;
+    text-align: center;
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+    margin: 12px auto 0;
+    max-width: 164px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.collections__product>p:hover {
+    border-bottom: 2px solid #191919;
+}
+
+.collection_title {
+    max-width: 1420px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.collection_title>p {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 28px;
+    color: #191919;
+    text-align: start;
+    margin-right: 50px;
+}
+
+.collection_title>button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    line-height: 18px;
+    color: #191919;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.collection_title>button:hover {
+    border-bottom: 2px solid #191919;
+}

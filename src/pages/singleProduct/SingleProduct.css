@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Market Sans Light", sans-serif;
+}
+
+.single__product {
+    max-width: 100vw;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+
+.single__product__swiper {
+    width: 100%;
+    max-width: 60%;
+    height: 100%;
+    border: 1px solid #d3d3d3aa;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #D3D3D3;
+}
+
+.product__description {
+    width: 100%;
+    max-width: 40%;
+    height: 100%;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #d3d3d3aa;
+    border-radius: 10px;
+}
+
+.product__description>h2 {
+    max-width: 550px;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.line_div {
+    width: 100%;
+    width: 500px;
+    height: 1px;
+    background-color: #d3d3d3aa;
+}
+
+.title__product {
+    width: 100%;
+    max-width: 550px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.title__product__wrapper {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.title__product__wrapper>p {
+    width: 100%;
+    max-width: 100px;
+    height: 100%;
+    font-weight: 400;
+}
+
+.title__product__wrapper>span {
+    width: 100%;
+    max-width: 390px;
+    height: 100%;
+    padding: 3px;
+    background-color: #D3D3D3;
+    border: 1px solid #d3d3d3aa;
+    border-radius: 5px;
+}
+
+.SwiperSlidetop {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SwiperSlidetop img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+.mySwiper10 {
+    height: 80%;
+    width: 50%;
+}
+
+.mySwiper11 {
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mySwiper11 .SwiperSlidetop2-thumb-active {
+    opacity: 1;
+}
+
+.SwiperSlidetop2 img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}

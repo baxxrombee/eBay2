@@ -1,0 +1,95 @@
+.like-page {
+    max-width: 100vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.like-page h2 {
+    text-align: center;
+    color: #191919;
+    font-size: 22px;
+    font-weight: 700;
+    font-style: italic;
+    padding: 10px;
+    border: 1px solid #d3d3d3b4;
+    background-color: #d3d3d3;
+    border-radius: 5px;
+}
+
+.liked-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1400px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.like-card {
+    width: 200px;
+    padding: 10px;
+    background-color: #d0d9d9;
+    border-radius: 10px;
+    border: 1px solid #d3d3d3b4;
+    text-align: center;
+    transition: transform 0.2s;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between  ;
+    gap: 10px;
+}
+
+.like-card a {
+    text-decoration: none;
+}
+
+.like-card:hover {
+    transform: scale(1.05);
+}
+
+.like-image {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.like-info {
+    margin-top: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.like-info h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #191919;
+    padding: 3px;
+}
+
+.like-info p {
+    font-size: 14px;
+    color: #191919;
+    padding: 3px;
+}
+
+.like-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    bottom: 0;
+}
+
+.like-icon:hover {
+    transition: .5s;
+    color: red;
+}
